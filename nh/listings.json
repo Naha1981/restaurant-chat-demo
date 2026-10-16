@@ -1,0 +1,642 @@
+[
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "631",
+  "price": "R13 900 000",
+  "title": "Vacant Land / Plot For Sale in Klippoortje, Germiston",
+  "location": "Klippoortje, Germiston",
+  "details": "",
+  "agent": "Lindiwe Ntlemeza"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "814",
+  "price": "R7 000 000",
+  "title": "7 Bedroom House For Sale in Gallo Manor, Sandton",
+  "location": "Gallo Manor, Sandton",
+  "details": "7 bed 5 bath 8 parking",
+  "agent": "Lindiwe Ntlemeza"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "106",
+  "price": "R6 950 000",
+  "title": "Vacant Land / Plot For Sale in Ruimsig, Roodepoort",
+  "location": "Ruimsig, Roodepoort",
+  "details": "",
+  "agent": "Thully Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "878",
+  "price": "R6 750 000",
+  "title": "5 Bedroom House For Sale in Helderwyk, Brakpan",
+  "location": "Helderwyk, Brakpan",
+  "details": "5 bed 4 bath 11 parking \u00b7 948 m\u00b2 erf",
+  "agent": "Lindiwe Ntlemeza"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "812",
+  "price": "R6 300 000",
+  "title": "Spacious Family Home with 700m\u00b2 Roofed Living on 141m\u00b2 Erf",
+  "location": "Morningside, Johannesburg",
+  "details": "9 bed 8 bath 14 parking \u00b7 141 m\u00b2 erf",
+  "agent": null
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "111",
+  "price": "R5 999 999",
+  "title": "Greenbelt-Facing: The View Behind This Home Will Never Be Built Out | Solar-Powered, 600sqm | Under Roof On A 1,044sqm",
+  "location": "Ruimsig Country Estate, Johannesburg",
+  "details": "4 bed 5 bath 8 parking \u00b7 1,044 m\u00b2 erf",
+  "agent": "Thully Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "733",
+  "price": "R5 400 000",
+  "title": "Vacant Land / Plot For Sale in Aliwal North, Aliwal North",
+  "location": "Aliwal North, Aliwal North",
+  "details": "",
+  "agent": "Lindiwe Ntlemeza"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "725",
+  "price": "R5 300 000",
+  "title": "4 Bedroom House For Sale in Blue Valley Golf Estate, Centurion",
+  "location": "Blue Valley Golf Estate, Centurion",
+  "details": "4 bed 3 bath 7 parking",
+  "agent": "Skhumbuzo Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "108",
+  "price": "R4 500 000",
+  "title": "5 Bedroom House For Sale in Featherbrooke Estate, Krugersdorp",
+  "location": "Featherbrooke Estate, Krugersdorp",
+  "details": "5 bed 4 bath 6 parking \u00b7 500 m\u00b2 erf",
+  "agent": "Thully Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "973",
+  "price": "R4 500 000",
+  "title": "Vacant Land / Plot For Sale in Sebokeng, Sebokeng",
+  "location": "Sebokeng, Sebokeng",
+  "details": "",
+  "agent": "Lindiwe Ntlemeza"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "NE-M6GSP8",
+  "price": "R3 570 000",
+  "title": "Elegant 3-Bedroom Family Home with Pool in Villa Conesa Estate, Homes Haven",
+  "location": "Krugersdorp West, West Rand",
+  "details": "3 bed 3 bath 2 parking \u00b7 507 m\u00b2 erf",
+  "agent": "Skhumbuzo Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "681",
+  "price": "R3 500 000",
+  "title": "Vacant Land / Plot For Sale in Mapleton, Boksburg",
+  "location": "Mapleton, Boksburg",
+  "details": "",
+  "agent": "Lindiwe Ntlemeza"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "679",
+  "price": "R3 000 000",
+  "title": "Vacant Land / Plot For Sale in Spruitview, Katlehong",
+  "location": "Spruitview, Katlehong",
+  "details": "",
+  "agent": "Lindiwe Ntlemeza"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "777",
+  "price": "R2 950 000",
+  "title": "Vacant Land / Plot For Sale in Boksburg, Boksburg",
+  "location": "Boksburg, Boksburg",
+  "details": "",
+  "agent": "Skhumbuzo Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "948",
+  "price": "R2 700 000",
+  "title": "4 Bedroom House For Sale in Bordeaux, Randburg",
+  "location": "Bordeaux, Randburg",
+  "details": "4 bed 3 bath 4 parking \u00b7 870 m\u00b2 erf",
+  "agent": "Prudence Ragolane"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "976",
+  "price": "R2 500 000",
+  "title": "1 Rangeview",
+  "location": "Rangeview Ext 4",
+  "details": "5 bed 3 bath 8 parking \u00b7 1,342 m\u00b2 erf",
+  "agent": "Nnana Mtambeka"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "1009",
+  "price": "R2 200 000",
+  "title": "35 Fredman Drive, Sandhurst Towers",
+  "location": "Sandhurst, Johannesburg",
+  "details": "2 bed 2 bath 1 parking",
+  "agent": "Skhumbuzo Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "776",
+  "price": "R1 950 000",
+  "title": "4 Bedroom House For Sale in Aliwal North, Aliwal North",
+  "location": "Aliwal North, Aliwal North",
+  "details": "4 bed 3 bath 2 parking \u00b7 1,002 m\u00b2 erf",
+  "agent": "Lindiwe Ntlemeza"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "NE-L3EE39",
+  "price": "R1 900 000",
+  "title": "Spacious 4-Bedroom Family Home with Pool, Built-in Braai & Ample Parking",
+  "location": "Bloubosrand, Johannesburg",
+  "details": "4 bed 2 bath 2 parking",
+  "agent": "Prudence Ragolane"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "962",
+  "price": "R1 900 000",
+  "title": "1 Homes Haven",
+  "location": "3 bed 2 bath 4 parking",
+  "details": "",
+  "agent": "Nnana Mtambeka"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "866",
+  "price": "R1 890 000",
+  "title": "A Small holding Farm with 4 Bedroom Family Home and 5 Chicken Coup For Sale in Zuurbem Westonaria",
+  "location": "Zuurbekom, Westonaria",
+  "details": "4 bed 2 bath 7 parking \u00b7 20,243 m\u00b2 erf",
+  "agent": "Skhumbuzo Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "950",
+  "price": "R1 780 000",
+  "title": "2 Mondeor",
+  "location": "Mondeor, Johannesburg",
+  "details": "3 bed 2 bath 2 parking \u00b7 624 m\u00b2 erf",
+  "agent": "Kevin Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "952",
+  "price": "R1 690 000",
+  "title": "1 MONDEOR",
+  "location": "3 bed 2 bath 2 parking \u00b7 1,002 m\u00b2 erf",
+  "details": "",
+  "agent": "Kevin Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "837",
+  "price": "R1 650 000",
+  "title": "Gated Haven: Prime Living in Lion Pride Lifestyle Estate",
+  "location": "Cosmo City, Johannesburg",
+  "details": "3 bed 2 bath 4 parking \u00b7 300 m\u00b2 erf",
+  "agent": null
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "940",
+  "price": "R1 650 000",
+  "title": "3 Bedroom Townhouse For Sale in Willowbrook, Roodepoort",
+  "location": "Willowbrook, Roodepoort",
+  "details": "3 bed 3 bath 2 parking",
+  "agent": "Skhumbuzo Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "977",
+  "price": "R1 500 000",
+  "title": "2 Bedroom Duplex For Sale in Willowbrook, Roodepoort",
+  "location": "Willowbrook, Roodepoort",
+  "details": "2 bed 1 bath 2 parking \u00b7 145 m\u00b2 erf",
+  "agent": "Prudence Ragolane"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "975",
+  "price": "R1 500 000",
+  "title": "Vacant Land / Plot For Sale in Sebokeng, Sebokeng",
+  "location": "Sebokeng, Sebokeng",
+  "details": "",
+  "agent": "Lindiwe Ntlemeza"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "880",
+  "price": "R1 498 000",
+  "title": "4 Bedroom Family Home with Double Garage and Outside Room For Sale in Hospital View, Kagiso",
+  "location": "Kagiso, West Rand",
+  "details": "4 bed 3 bath 8 parking \u00b7 693 m\u00b2 erf",
+  "agent": "Skhumbuzo Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "NE-ND8KLI",
+  "price": "R1 350 000",
+  "title": "Spacious 4-Bedroom Family Home with Balconies, Study & Double Garage in Protea Glen Ext 11",
+  "location": "Protea Glen, Johannesburg",
+  "details": "4 bed 2 bath 2 parking \u00b7 257 m\u00b2 erf",
+  "agent": "Kevin Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "1008",
+  "price": "R1 330 000",
+  "title": "41 Fish Eagle Creek, 1070 Bellini Crescent",
+  "location": "Wilgeheuwel, Roodepoort",
+  "details": "3 bed 2 bath 1 parking",
+  "agent": "Skhumbuzo Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "956",
+  "price": "R1 300 000",
+  "title": "2 Bedroom Townhouse For Sale in Willowbrook, Roodepoort",
+  "location": "Willowbrook, Roodepoort",
+  "details": "2 bed 3 bath 3 parking \u00b7 145 m\u00b2 erf",
+  "agent": "Prudence Ragolane"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "815",
+  "price": "R1 300 000",
+  "title": "1 Constantia",
+  "location": "Constantia Kloof, Johannesburg",
+  "details": "",
+  "agent": "Sandile Nkosi"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "978",
+  "price": "R1 200 000",
+  "title": "3 Bedroom House For Sale in Protea Glen, Soweto",
+  "location": "Protea Glen, Soweto",
+  "details": "3 bed 2 bath 1 parking \u00b7 300 m\u00b2 erf",
+  "agent": "Thokozile Sithole"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "965",
+  "price": "R1 195 000",
+  "title": "Vacant Land / Plot For Sale in Ruimsig Country Estate, Krugersdorp",
+  "location": "Ruimsig Country Estate, Krugersdorp",
+  "details": "",
+  "agent": "Skhumbuzo Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "1010",
+  "price": "R1 150 000",
+  "title": "Spacious Double Storey Family Home with Modern Finishes & Excellent Security",
+  "location": "Protea Glen Ext, Soweto",
+  "details": "5 bed 4 bath 2 parking",
+  "agent": "Lwazi Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "762",
+  "price": "R1 125 000",
+  "title": "1 Strubensvallei",
+  "location": "Strubensvalley, Johannesburg",
+  "details": "",
+  "agent": "Sandile Nkosi"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "918",
+  "price": "R1 050 000",
+  "title": "Vacant Land / Plot For Sale in Mid Ennerdale, Johannesburg",
+  "location": "Mid Ennerdale, Johannesburg",
+  "details": "",
+  "agent": "Lindiwe Ntlemeza"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "980",
+  "price": "R1 000 000",
+  "title": "2 Bedroom House For Sale in Mindalore, Krugersdorp",
+  "location": "Mindalore, Krugersdorp",
+  "details": "2 bed 2 bath 8 parking \u00b7 343 m\u00b2 erf",
+  "agent": "Prudence Ragolane"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "652",
+  "price": "R978 000",
+  "title": "25 Castle View Estate",
+  "location": "Castleview, Germiston",
+  "details": "3 bed 2 bath 2 parking",
+  "agent": "Skhumbuzo Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "675",
+  "price": "R950 000",
+  "title": "2 Helderkruin",
+  "location": "3 bed 1 bath 0 parking",
+  "details": "",
+  "agent": "Skhumbuzo Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "896",
+  "price": "R950 000",
+  "title": "1 Vosloorus",
+  "location": "Vosloorus, Ekurhuleni",
+  "details": "3 bed 2 bath 3 parking \u00b7 363 m\u00b2 erf",
+  "agent": "Phethile Masango"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "1001",
+  "price": "R850 000",
+  "title": "3 Bedroom Family Home for Sale in a Prime Location in HillsView, Kagiso",
+  "location": "Kagiso, West Rand",
+  "details": "3 bed 2 bath 0 parking",
+  "agent": "Nnana Mtambeka"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "946",
+  "price": "R850 000",
+  "title": "8 Bedroom House For Sale in Protea Glen, Soweto",
+  "location": "Protea Glen, Soweto",
+  "details": "8 bed 3 bath 5 parking \u00b7 431 m\u00b2 erf",
+  "agent": "Prudence Ragolane"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "826",
+  "price": "R800 000",
+  "title": "2 Bedroom Apartment / Flat For Sale in Ferndale, Randburg",
+  "location": "Ferndale, Randburg",
+  "details": "2 bed 2 bath 2 parking",
+  "agent": "Phethile Masango"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "796",
+  "price": "R800 000",
+  "title": "5 Bedroom House For Sale in Vosloorus, Vosloorus",
+  "location": "Vosloorus, Vosloorus",
+  "details": "5 bed 2 bath 3 parking",
+  "agent": "Phethile Masango"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "653",
+  "price": "R765 000",
+  "title": "2 Bedroom House For Sale in Reigerpark, Boksburg",
+  "location": "Reigerpark, Boksburg",
+  "details": "2 bed 1 bath 0 parking \u00b7 250 m\u00b2 erf",
+  "agent": "Phethile Masango"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "936",
+  "price": "R750 000",
+  "title": "2 Protea Glen",
+  "location": "Protea Glen, Johannesburg",
+  "details": "3 bed 1 bath 2 parking \u00b7 252 m\u00b2 erf",
+  "agent": "Nnana Mtambeka"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "659",
+  "price": "R730 000",
+  "title": "1 Kagiso",
+  "location": "Kagiso, West Rand",
+  "details": "2 bed 1 bath 6 parking \u00b7 250 m\u00b2 erf",
+  "agent": "Nnana Mtambeka"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "951",
+  "price": "R700 000",
+  "title": "1 Alberton",
+  "location": "Alberton, Ekurhuleni",
+  "details": "2 bed 1 bath 1 parking",
+  "agent": "Kevin Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "771",
+  "price": "R680 000",
+  "title": "2 Bedroom Apartment / Flat For Sale in Jabulani, Soweto",
+  "location": "Jabulani, Soweto",
+  "details": "2 bed 1 bath 1 parking",
+  "agent": "Thokozile Sithole"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "939",
+  "price": "R680 000",
+  "title": "1 Protea Glen",
+  "location": "Protea Glen, Johannesburg",
+  "details": "2 bed 1 bath 1 parking",
+  "agent": "Kevin Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "958",
+  "price": "R670 000",
+  "title": "1 Mondeor",
+  "location": "Mondeor, Johannesburg",
+  "details": "2 bed 1 bath 2 parking",
+  "agent": "Kevin Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "947",
+  "price": "R660 000",
+  "title": "1 Jabulani",
+  "location": "2 bed 1 bath 1 parking",
+  "details": "",
+  "agent": "Kevin Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "1002",
+  "price": "R630 000",
+  "title": "Investment Opportunity with 3 Outside Rooms for Sale in Jabavu (White City), Soweto",
+  "location": "Jabavu (White City), Soweto",
+  "details": "4 bed 2 bath 2 parking",
+  "agent": "Lwazi Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "961",
+  "price": "R545 000",
+  "title": "1 Bedroom Apartment / Flat For Sale in Willowbrook, Roodepoort",
+  "location": "Willowbrook, Roodepoort",
+  "details": "1 bed 1 bath 1 parking",
+  "agent": "Skhumbuzo Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "790",
+  "price": "R530 000",
+  "title": "1 Westernaria",
+  "location": "Westonaria, West Rand",
+  "details": "",
+  "agent": "Skhumbuzo Masilela"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "917",
+  "price": "R450 000",
+  "title": "Vacant Land / Plot For Sale in Midvaal, Midvaal",
+  "location": "Midvaal, Midvaal",
+  "details": "",
+  "agent": "Lindiwe Ntlemeza"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "924",
+  "price": "R220 000",
+  "title": "Vacant Land / Plot For Sale in Carletonville, Carletonville",
+  "location": "Carletonville, Carletonville",
+  "details": "",
+  "agent": "Lindiwe Ntlemeza"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "922",
+  "price": "R220 000",
+  "title": "Vacant Land / Plot For Sale in Carletonville, Carletonville",
+  "location": "Carletonville, Carletonville",
+  "details": "",
+  "agent": "Lindiwe Ntlemeza"
+ },
+ {
+  "kind": "sale",
+  "status": "For Sale",
+  "ref": "923",
+  "price": "R220 000",
+  "title": "Vacant Land / Plot For Sale in Carletonville, Carletonville",
+  "location": "Carletonville, Carletonville",
+  "details": "",
+  "agent": "Lindiwe Ntlemeza"
+ },
+ {
+  "kind": "rent",
+  "status": "To Let",
+  "ref": "1006",
+  "price": "R16 000 p/m",
+  "title": "3-Bedroom Townhouse To Rent in Amorosa, Roodepoort",
+  "location": "Amorosa, Johannesburg",
+  "details": "3 bed 3 bath 2 parking",
+  "agent": "Skhumbuzo Masilela"
+ },
+ {
+  "kind": "rent",
+  "status": "To Let",
+  "ref": "955",
+  "price": "R13 000 p/m",
+  "title": "Dual-Income Alberton Home with Pool, Yard & Bachelor Unit",
+  "location": "Alberton, Ekurhuleni",
+  "details": "3 bed 2 bath 4 parking",
+  "agent": null
+ },
+ {
+  "kind": "rent",
+  "status": "To Let",
+  "ref": "1007",
+  "price": "R9 000 p/m",
+  "title": "Charming 3-Bedroom Home to Let in Waterfall View Estate",
+  "location": "Waterfall, Johannesburg",
+  "details": "3 bed 1 bath 0 parking",
+  "agent": "Skhumbuzo Masilela"
+ },
+ {
+  "kind": "rent",
+  "status": "To Let",
+  "ref": "707",
+  "price": "R7 500 p/m",
+  "title": "3 Bedroom House To Let in Kagiso, Kagiso",
+  "location": "Kagiso, Kagiso",
+  "details": "3 bed 1 bath 3 parking \u00b7 550 m\u00b2 erf",
+  "agent": "Prudence Ragolane"
+ }
+]

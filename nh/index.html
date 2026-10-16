@@ -1,0 +1,66 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>NestHaven Properties - Enquiries</title><meta name="theme-color" content="#14231d">
+<style>
+:root{--bg:#f6f3ec;--ink:#1c2a24;--mut:#66726b;--g:#14231d;--acc:#b08d3c;--card:#fff;--line:#e3ddcf}
+*{box-sizing:border-box}html,body{margin:0;height:100%}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;background:var(--bg);color:var(--ink);display:flex;flex-direction:column;height:100vh;height:100dvh;font-size:16px}
+header{background:var(--g);color:#fff;padding:12px 16px calc(10px)}header b{font-size:17px;letter-spacing:.2px;display:block}header small{color:#c9d3cc;font-size:12.5px}
+nav{display:flex;background:var(--g);padding:0 8px}nav button{flex:1;background:none;border:0;color:#b9c6be;padding:11px 4px;font-size:15px;border-bottom:3px solid transparent}nav button.on{color:#fff;border-color:var(--acc)}
+main{flex:1;overflow:hidden;position:relative}section{position:absolute;inset:0;overflow:auto;display:none;padding:12px}section.on{display:flex;flex-direction:column}
+#chat{padding:0}#log{flex:1;overflow:auto;padding:12px;display:flex;flex-direction:column;gap:8px}
+.m{max-width:84%;padding:9px 12px;border-radius:14px;white-space:pre-wrap;line-height:1.38;font-size:15.5px}.u{align-self:flex-end;background:var(--g);color:#fff;border-bottom-right-radius:4px}.b{align-self:flex-start;background:var(--card);border:1px solid var(--line);border-bottom-left-radius:4px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;padding:0 12px 8px}.chips button{border:1px solid var(--acc);background:#fff;color:var(--g);border-radius:18px;padding:8px 12px;font-size:14px}
+#f{display:flex;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--line)}#t{flex:1;padding:12px 14px;border-radius:22px;border:1px solid var(--line);font-size:16px;background:var(--bg)}
+.go{border:0;border-radius:22px;padding:0 18px;background:var(--g);color:#fff;font-size:16px}
+.help{font-size:12.5px;color:var(--mut);padding:6px 12px 0}
+.row{display:flex;gap:8px;margin-bottom:10px}.row select,.row input{flex:1;min-width:0;padding:11px;border:1px solid var(--line);border-radius:10px;font-size:15px;background:#fff}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin-bottom:10px}.card h4{margin:0 0 4px;font-size:15.5px;line-height:1.3}.card .p{color:var(--acc);font-weight:700;font-size:17px}.card .s{color:var(--mut);font-size:13.5px;margin:2px 0 8px}
+.card button{border:1px solid var(--g);background:#fff;color:var(--g);border-radius:16px;padding:7px 12px;font-size:13.5px;margin-right:6px}.card button.pri{background:var(--g);color:#fff}
+label{display:block;font-size:13.5px;color:var(--mut);margin:10px 0 4px}input[type=text],input[type=tel],input[type=email],select,textarea{width:100%;padding:12px;border:1px solid var(--line);border-radius:10px;font-size:16px;background:#fff;font-family:inherit}textarea{min-height:84px}
+.chk{display:flex;gap:10px;align-items:flex-start;margin:12px 0;font-size:13.5px;color:var(--ink);line-height:1.35}.chk input{margin-top:3px;width:20px;height:20px;flex:none}
+.big{width:100%;padding:14px;border:0;border-radius:12px;background:var(--g);color:#fff;font-size:17px;margin-top:6px}.big[disabled]{opacity:.6}
+.err{color:#a1261b;font-size:14px;margin-top:8px}.ok{background:#e8f1e9;border:1px solid #bcd4c0;border-radius:12px;padding:14px;margin-top:12px;line-height:1.4}
+.direct{display:flex;gap:8px;margin:0 0 12px}.direct a{flex:1;text-align:center;padding:11px 6px;border:1px solid var(--g);border-radius:10px;color:var(--g);text-decoration:none;font-size:14px;background:#fff}
+footer{background:#fff;border-top:1px solid var(--line);padding:6px 12px calc(6px + env(safe-area-inset-bottom));font-size:11.5px;color:var(--mut);text-align:center}
+.hp{position:absolute;left:-9999px;opacity:0}
+</style></head><body>
+<header><b>NestHaven Properties</b><small>Enquiries, any hour. AI assistant by NahaLabs</small></header>
+<nav><button id="n-chat" class="on">Chat</button><button id="n-list">Properties</button><button id="n-req">Send to the team</button></nav>
+<main>
+<section id="chat" class="on"><div class="help">Ask about buying, selling, renting or a valuation. Answers come from NestHaven's public website. The team confirms prices, availability and viewings.</div><div id="log"></div><div class="chips" id="chips"><button>I want to buy</button><button>I want to rent</button><button>Value my property</button><button>Arrange a viewing</button></div>
+<form id="f"><input id="t" placeholder="Type a message" autocomplete="off" maxlength="800" aria-label="Message"><button class="go">Send</button></form></section>
+<section id="list"><div class="row"><select id="k"><option value="sale">For sale</option><option value="rent">To let</option></select><select id="mx"><option value="0">Any price</option></select></div><div class="row"><input id="q" placeholder="Suburb or reference" aria-label="Suburb or reference"></div><div id="res"></div><div class="help" style="padding:0 0 12px">Listings and prices as shown on nesthaven.co.za on 16 Oct 2026. The team confirms availability.</div></section>
+<section id="req"><div class="direct"><a href="tel:+27739975343">Call the office</a><a href="https://wa.me/27786030977" target="_blank" rel="noopener">WhatsApp Thully</a><a href="mailto:info@nesthaven.co.za">Email</a></div>
+<form id="lf" novalidate><label>What do you need?</label><select id="type"><option>Viewing request</option><option>Valuation request</option><option>Rental enquiry</option><option>Buying or selling enquiry</option><option>Call back request</option><option>Other</option></select>
+<label>Your name</label><input type="text" id="name" autocomplete="name" maxlength="80"><label>Phone number</label><input type="tel" id="phone" autocomplete="tel" maxlength="30" inputmode="tel"><label>Email (optional)</label><input type="email" id="email" autocomplete="email" maxlength="120">
+<label>Listing reference or area (optional)</label><input type="text" id="ref" maxlength="40"><label>Best day and time (optional)</label><input type="text" id="when" maxlength="120" placeholder="e.g. Saturday morning">
+<label>Anything we should know (optional)</label><textarea id="msg" maxlength="1000"></textarea>
+<input class="hp" tabindex="-1" autocomplete="off" id="website" aria-hidden="true">
+<div class="chk"><input type="checkbox" id="wa"><span>I'd also like to be contacted via WhatsApp.</span></div>
+<div class="chk"><input type="checkbox" id="consent"><span>I consent to NestHaven Properties processing my personal information for the purposes of responding to this enquiry, in accordance with the POPI Act. I understand I may withdraw consent at any time.</span></div>
+<button class="big" id="sb">Send to the team</button><div class="err" id="er"></div><div id="done"></div></form></section>
+</main>
+<footer>NestHaven Properties, Ruimsig, Roodepoort. Visits by appointment. PPRA FFC No. 202615011670000. Assistant by NahaLabs.</footer>
+<script>
+const API=window.API_BASE||(location.pathname.indexOf('/nesthaven')===0?'/nesthaven':'');
+const $=id=>document.getElementById(id);let hist=[],LS=[];
+function show(n){['chat','list','req'].forEach(x=>{$(x).classList.toggle('on',x===n);$('n-'+x).classList.toggle('on',x===n)})}
+['chat','list','req'].forEach(x=>$('n-'+x).onclick=()=>show(x));
+function add(c,x){const d=document.createElement('div');d.className='m '+c;d.textContent=x;$('log').appendChild(d);$('log').scrollTop=1e9;return d}
+add('b','Hi, I am the NestHaven enquiry assistant. I can help with buying, renting, selling or a valuation. What can I help you with?');
+async function send(v){if(!v)return;$('chips').style.display='none';add('u',v);hist.push({role:'user',content:v});const w=add('b','...');
+ try{const r=await fetch(API+'/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({messages:hist})});const j=await r.json();w.textContent=j.reply||'Sorry, something went wrong. Please use the Send to the team tab.';hist.push({role:'assistant',content:j.reply||''})}catch(_){w.textContent='Sorry, something went wrong. Please use the Send to the team tab.'}}
+$('f').onsubmit=e=>{e.preventDefault();const v=$('t').value.trim();$('t').value='';send(v)};
+document.querySelectorAll('#chips button').forEach(b=>b.onclick=()=>send(b.textContent));
+const BUDG={sale:[500000,1000000,2000000,5000000,10000000],rent:[8000,10000,15000,20000]};
+function num(p){return parseInt(String(p).replace(/\D/g,''))||0}
+function fillMx(){const k=$('k').value;$('mx').innerHTML='<option value="0">Any price</option>'+BUDG[k].map(v=>'<option value="'+v+'">Up to R'+v.toLocaleString('en-ZA')+'</option>').join('')}
+function render(){const k=$('k').value,mx=+$('mx').value,q=$('q').value.trim().toLowerCase();const r=LS.filter(l=>l.kind===k&&(!mx||num(l.price)<=mx)&&(!q||(l.location+' '+l.ref+' '+l.title).toLowerCase().includes(q)));
+ $('res').innerHTML='';if(!r.length){$('res').innerHTML='<div class="card">No matches. Try another suburb or price, or ask the assistant.</div>';return}
+ r.forEach(l=>{const c=document.createElement('div');c.className='card';const h=document.createElement('h4');h.textContent=l.title;const p=document.createElement('div');p.className='p';p.textContent=l.price+(l.kind==='rent'?' per month':'');const s=document.createElement('div');s.className='s';s.textContent=l.location+(l.details?' | '+l.details:'')+' | Ref '+l.ref+(l.agent?' | '+l.agent:'');
+ const b1=document.createElement('button');b1.textContent='Ask about this';b1.onclick=()=>{show('chat');send('Tell me about listing '+l.ref+' ('+l.location+')')};const b2=document.createElement('button');b2.className='pri';b2.textContent=l.kind==='rent'?'Enquire':'Request viewing';b2.onclick=()=>{$('type').value=l.kind==='rent'?'Rental enquiry':'Viewing request';$('ref').value='Ref '+l.ref+', '+l.location;show('req')};
+ c.append(h,p,s,b1,b2);$('res').appendChild(c)})}
+fetch(API+'/api/listings').then(r=>r.json()).then(j=>{LS=j.listings;fillMx();render()});$('k').onchange=()=>{fillMx();render()};$('mx').onchange=render;$('q').oninput=render;
+$('lf').onsubmit=async e=>{e.preventDefault();$('er').textContent='';$('sb').disabled=true;
+ try{const r=await fetch(API+'/api/lead',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({type:$('type').value,name:$('name').value,phone:$('phone').value,email:$('email').value,ref:$('ref').value,when:$('when').value,message:$('msg').value,whatsapp:$('wa').checked,consent:$('consent').checked,website:$('website').value,test:location.hash==='#test'})});const j=await r.json();
+  if(j.ok){$('lf').querySelectorAll('input,select,textarea,button').forEach(x=>x.disabled=true);$('done').innerHTML='<div class="ok" id="okbox"><b>Sent to the NestHaven team.</b><br>Thank you. Nothing is booked yet. The team will contact you to confirm. For anything urgent, call +27 73 997 5343.</div>';$('okbox').scrollIntoView({behavior:'smooth'})}else{$('er').textContent=j.error||'Could not send. Please call +27 73 997 5343.';$('sb').disabled=false}}
+ catch(_){$('er').textContent='Could not send. Please call +27 73 997 5343.';$('sb').disabled=false}};
+</script></body></html>

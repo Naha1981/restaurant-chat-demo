@@ -26,7 +26,9 @@ add('b','Hi, thanks for contacting ${t.name.replace(/'/g,"")}. Would you like to
 document.getElementById('f').onsubmit=async e=>{e.preventDefault();const v=t.value.trim();if(!v)return;t.value='';add('u',v);hist.push({role:'user',content:v});const w=add('b','...');
 try{const r=await fetch('/api/chat/${slug}',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({messages:hist})});const j=await r.json();w.textContent=j.reply||'Sorry, something went wrong.';hist.push({role:'assistant',content:j.reply||''})}catch(_){w.textContent='Sorry, something went wrong.'}};
 </script></body></html>`}
+const NH=require('./nh/server.js');
 http.createServer(async(req,res)=>{
+ if(req.url==='/nesthaven'||req.url.startsWith('/nesthaven/')||req.url.startsWith('/nesthaven?')){req.url=req.url.slice(10)||'/';if(req.url[0]==='?')req.url='/'+req.url;return NH(req,res)}
  if(req.url==='/health'){res.writeHead(200);return res.end('ok')}
  if(req.method==='GET'&&req.url.startsWith('/stats')){const ok=req.url.includes('k='+process.env.STATS_KEY);res.writeHead(ok?200:404,{'Content-Type':'application/json'});return res.end(ok?JSON.stringify(HITS.slice(-200)):'{}')}
  let m=req.url.match(/^\/api\/chat\/([a-z0-9-]+)$/);
